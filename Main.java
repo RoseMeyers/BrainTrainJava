@@ -17,7 +17,7 @@ public class Main {
     Scanner input1 = new Scanner (System.in);
     System.out.print("Please enter your name: ");
     final String username = input1.next();
- // The keyword "final" is used with variables to create constants that cannot be changed.
+// The keyword "final" is used with variables to create constants that cannot be changed.
     System.out.println();
     System.out.println(username +","+ " are you smarter than a fifth grader? Let's find out!");
     
@@ -65,7 +65,7 @@ public class Main {
     
 	if (answer2.equals( "11" )) {
     	System.out.println("Correct!"); }
-    else 
+    	else 
     	System.out.println("That is incorrect. The correct answer is 11."); }
 		
 	System.out.println();
@@ -120,7 +120,7 @@ Double = A data type that stores fractional numbers, has a greater range than fl
     
 	if (answer5.equals( (17%5)  )) {
     	System.out.println("Correct!"); }
-    else 
+    	else 
     	System.out.println("That is incorrect. The correct answer is " + 17%5 ); }
 	
 
@@ -136,7 +136,7 @@ Double = A data type that stores fractional numbers, has a greater range than fl
 
 	if (answer6.equals( absValue )) {
     	System.out.println("Correct!"); }
-    else 
+   	else 
     	System.out.println("That is incorrect. The correct answer is " + absValue); }
 /* Java has rules for operator precedence which affects how an expression is evaluated.
  * aka which operations will be completed first with priority. Multiplication 
@@ -156,7 +156,7 @@ Double = A data type that stores fractional numbers, has a greater range than fl
     	if (answer7.equals("africa, europe, australia, north america, south america, antarctica")) {
     		System.out.println("That is a continent, but not the correct one. The correct answer is Asia");
     		break;
-// break statement ends the loop and moves on to next statement.
+// The break statement ends the loop and moves on to next statement.
     	} else if (answer7.equals("asia")) {
     		System.out.println("That is correct!");
     		break;
